@@ -194,5 +194,5 @@ router.get('/userlist', (req, res) => {
             console.error('获取用户列表异常', error);
             res.send({code: 1, msg: '获取用户列表异常, 请重新尝试'})
         })
-});
+})
 module.exports = router;
